@@ -1,7 +1,7 @@
-php-simple-html-dom-parser
+Laravel-html-dom-parser
 ==========================
 
-Version 1.5.2
+Version 1.0.1
 
 Adaptation for Composer and PSR-0 of:
 
@@ -20,7 +20,7 @@ Install
  composer.phar
 ```json
 "require": {
-    "sunra/php-simple-html-dom-parser": "1.5.2"
+    "umairtanveer/laravel-html-dom-parser": "1.5.2"
     }
 ```
 
@@ -28,7 +28,7 @@ Usage
 -----
 
 ```php
-use Sunra\PhpSimple\HtmlDomParser;
+use HTMLDOM\PhpSimple\HtmlDomParser;
 
 ...
 $dom = HtmlDomParser::str_get_html( $str );
